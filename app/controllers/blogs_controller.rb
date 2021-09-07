@@ -44,7 +44,7 @@ class BlogsController < ApplicationController
   private
   # ストロングパラメータ(入力フォームからのデータを受け取る)
   def blog_params
-    params.require(:blog).permit(:title, :category, :body)
+    params.require(:blog).permit(:title, :categoly, :body)
   end
  
   
